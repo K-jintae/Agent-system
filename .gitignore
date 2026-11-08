@@ -1,6 +1,22 @@
-.venv
+# 배포에 필요한 파일만 Git에 포함합니다.
+/*
+!/.gitignore
+!/app.py
+!/agent.py
+!/grading.py
+!/analysis.py
+!/export.py
+!/tools.py
+!/safety.py
+!/requirements.txt
+!/README.md
 
+# 화면 테마만 포함하고 API 키 설정은 제외합니다.
+!/.streamlit/
+/.streamlit/*
+!/.streamlit/config.toml
+
+# 비밀 설정은 하위 경로에서도 제외합니다.
 .env
-__pycache__/
-*.pyc
-.streamlit/secrets.toml
+.env.*
+secrets.toml
