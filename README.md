@@ -4,8 +4,8 @@ PDF 정답지에서 정답과 배점을 추출해 OMR을 자동 채점하고, �
 
 ## 평가 필수 정보
 
-- 학번 및 이름: .
-- 배포 URL: agent-systemfinal.streamlit.app
+- 학번 및 이름: 202235028 김진태
+- 배포 URL: [agent-systemfinal.streamlit.app](https://agent-systemfinal.streamlit.app/)
 - 서비스 유지 기한: 11월 11일 23:59
 
 ## 실행
